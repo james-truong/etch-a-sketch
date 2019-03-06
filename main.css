@@ -1,0 +1,53 @@
+/*
+  Main style sheet
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    background: lightgrey;
+  }
+  
+  h1 {
+    margin: 10px;
+  }
+  
+  .grid-container {
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 20px auto;
+  
+    /* INITIAL FLEX IMPLEMENTATION
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    */
+  
+    display: grid;
+    align-content: start;
+    overflow: hidden;
+  }
+  
+  
+  .btn {
+    margin-top: 25px;
+    padding: 15px;
+    width: 25%;
+  }
+  
+  .pixel {
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    align-self: start
+  }
+  
+  .permhover {
+    background-color: black;
+  }
